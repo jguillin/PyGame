@@ -25,8 +25,8 @@ pygame.init()
 clock = pygame.time.Clock()
 
 # imagenes
-img = {"X": pygame.transform.smoothscale(pygame.image.load("x.png"), (t_letra, t_letra)),
-       "O": pygame.transform.smoothscale(pygame.image.load("o.png"), (t_letra, t_letra))}
+img = {"X": pygame.transform.smoothscale(pygame.image.load("X.png"), (t_letra, t_letra)),
+       "O": pygame.transform.smoothscale(pygame.image.load("O.png"), (t_letra, t_letra))}
 
 # variables juego
 VACIO = " "
